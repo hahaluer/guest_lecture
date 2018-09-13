@@ -226,3 +226,9 @@ cat elephant.pbs.o962
 > You can even have Cowboy email you when your job is done so you don't have to wait while it's in the queue. (`#PBS -m abe -M <email address>`)
 
 - Check out our New User Tutorial for more information.
+
+- Finally, to exit, type `exit` and hit `Enter`.
+
+```bash
+exit
+```
