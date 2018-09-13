@@ -188,7 +188,7 @@ cat elephant.pbs
 |        Command             |                                           Meaning                                                   |
 |       ---------            |                                          ---------                                                  |
 | `#PBS`                     | `#` indicates a comment (human eyes only). `#PBS` are special comments intended for the scheduler.  |
-| `#PBS -q                   | Tells the scheduler which queue to use (explain the queue slide).                                   |
+| `#PBS -q`                  | Tells the scheduler which queue to use (explain the queue slide).                                   |
 | `#PBS -l nodes=1:ppn=1`    | Requests the number of nodes and cores used for the job.                                            |
 | `#PBS -l walltime=10:00`   | How long the job will run before the system stops is.                                               |
 | `#PBS -j oe`               | Makes sure status updates and errors are written to the same output file. Please don't change this. |
